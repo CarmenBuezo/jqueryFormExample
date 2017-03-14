@@ -1,0 +1,108 @@
+/*
+** CSS below just for debug purposes
+
+div {
+	border: 1px solid grey;
+	
+}
+*/
+
+
+/* demo .... use border-box sizing 
+*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  	position: relative;
+  	margin: 0;
+  	padding-bottom: 2rem;
+  	min-height: 100%;
+
+  	font-family: 'Open Sans', sans-serif;
+	font-size: 1em; 
+}
+
+
+#headerDiv {
+	width: 85%;
+	margin: 0 auto;
+}
+
+h1 {
+	color: navy;
+	font-size: 3rem;
+	font-weight: bold;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sectionHeader {
+	margin-left: 2rem;
+	color: orange;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+#formSection {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#formA {
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid grey;
+	padding: 1rem;
+}
+
+#textInput {
+	font-size: 2rem;
+}
+
+#buttonDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+button {
+	margin-top: 1rem;
+	font-size: 2rem;
+	width: 10rem;
+}
+
+footer {
+	margin-top: 5rem;
+}
+
+#footerCopyright {
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	font-size: .8rem;
+
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: .8rem;
+}
+
+
+/* responsive media tags */
+
+@media only screen and (max-width: 600px) {
+	
+}
